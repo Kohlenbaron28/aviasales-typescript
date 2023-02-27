@@ -21,7 +21,7 @@ type AppProps = {
   ticketsError: (err: string) => void;
 };
 
-class App extends Component<AppProps, {}> {
+class App extends Component<AppProps, { val: 0 }> {
   componentDidMount(): void {
     const { updateSearchId, getTicketsById, ticketsError } = this.props;
     apiServise

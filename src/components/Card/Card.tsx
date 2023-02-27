@@ -2,6 +2,7 @@ import { addMinutes, parseISO } from 'date-fns';
 
 import Logo from '../img/s7.png';
 import { ICard } from '../../types';
+
 import classes from './Card.module.scss';
 
 export default function Card({
@@ -23,8 +24,8 @@ export default function Card({
   firstTimeComa,
   secondTimeComa,
 }: ICard) {
-  let resultFirst = addMinutes(parseISO(firstDate), firstDuration);
-  let resultSecond = addMinutes(parseISO(secondDate), secondDuration);
+  const resultFirst = addMinutes(parseISO(firstDate), firstDuration);
+  const resultSecond = addMinutes(parseISO(secondDate), secondDuration);
   return (
     <div className={classes.card}>
       <div className={classes['card__top']}>

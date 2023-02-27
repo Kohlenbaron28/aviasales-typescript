@@ -1,18 +1,4 @@
-import {
-  SHOW_ALL,
-  SHOW_ZERO,
-  SHOW_ONE,
-  SHOW_TWO,
-  SHOW_THREE,
-  SHOW_MORE,
-  SORT_BY_DURATION,
-  SORT_BY_OPTIMAL,
-  SORT_BY_PRICE,
-  UPDATE_PACKET_TICKETS,
-  UPDATE_SEARCH_ID,
-  TICKETS_ERROR,
-  TOGGLE_STOP,
-} from './constants';
+import { SHOW_ALL, SHOW_ZERO, SHOW_ONE, SHOW_TWO, SHOW_THREE } from './constants';
 
 export type ITicket = {
   price: number;

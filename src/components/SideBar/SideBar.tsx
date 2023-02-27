@@ -30,7 +30,7 @@ const SideBar = ({ all, zero, one, two, three, showZero }: ISideBar) => {
   }, [checkedZero, checkedOne, checkedTwo, checkedThree]);
 
   const handleChange = (e: React.FormEvent<EventTarget>) => {
-    let target = e.target as HTMLInputElement;
+    const target = e.target as HTMLInputElement;
     switch (target.name) {
       case 'All':
         all({

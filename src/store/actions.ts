@@ -1,4 +1,3 @@
-import apiServise from './service';
 import {
   SHOW_ALL,
   SHOW_ZERO,
@@ -15,6 +14,8 @@ import {
   TOGGLE_STOP,
 } from '../constants';
 import { ITicket, IShowAll, IShowOne, IShowThree, IShowTwo, IShowZero } from '../types';
+
+import apiServise from './service';
 
 export const all = (payload: { all: boolean; zeroP: boolean; oneP: boolean; twoP: boolean; threeP: boolean }) => {
   return { type: SHOW_ALL, payload };
