@@ -1,0 +1,65 @@
+.option {
+}
+.sideBar {
+  max-width: 232px;
+  max-height: 252px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: white;
+  margin-top: 50px;
+  box-sizing: border-box;
+  &__title {
+    text-transform: uppercase;
+    color: #4a4a4a;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: start;
+    margin-bottom: 20px;
+  }
+  &__label {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    padding-left: 1.6em;
+    font-weight: 400;
+    font-size: 13px;
+  }
+  &__input {
+    position: absolute;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    &:checked + .sideBar__chekBox {
+      background-image: url("../img/Checkbox.png");
+    }
+  }
+  &__chekBox {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-image: url("../img/form.png");
+    margin-left: -2em;
+  }
+}
+@media (max-width: 660px) {
+  .sideBar {
+    max-width: 232px;
+    max-height: 272px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 50px;
+    box-sizing: border-box;
+  }
+}
+@media (max-width: 500px) {
+  .sideBar {
+    max-width: 232px;
+    max-height: 272px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+    margin: 50px auto;
+    box-sizing: border-box;
+  }
+}

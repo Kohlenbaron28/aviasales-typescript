@@ -1,0 +1,13 @@
+export const SHOW_ALL = 'SHOW_ALL';
+export const SHOW_ZERO = 'SHOW_ZERO';
+export const SHOW_ONE = 'SHOW_ONE';
+export const SHOW_TWO = 'SHOW_TWO';
+export const SHOW_THREE = 'SHOW_THREE';
+export const SORT_BY_PRICE = 'SORT_BY_PRICE';
+export const SORT_BY_DURATION = 'SORT_BY_DURATION';
+export const SORT_BY_OPTIMAL = 'SORT_BY_OPTIMAL';
+export const UPDATE_SEARCH_ID = 'UPDATE_SEARCH_ID';
+export const UPDATE_PACKET_TICKETS = 'UPDATE_PACKET_TICKETS';
+export const SHOW_MORE = 'SHOW_MORE';
+export const TICKETS_ERROR = 'TICKETS_ERROR';
+export const TOGGLE_STOP = 'TOGGLE_STOP';
